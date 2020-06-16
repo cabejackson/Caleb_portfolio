@@ -1,3 +1,9 @@
+*{
+  margin: 10;
+  padding: 0;
+}
+
+
 header{
   background-color:#011627;
 }
@@ -12,6 +18,9 @@ h1{
   font-size: 65px;
   text-align: center
 }
+
+/* 10px = 1em */
+
 h2{
   color: black;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -34,12 +43,11 @@ a {
   font-family: Arial, sans-serif;
   font-size: 20px;
 }
-*{
-  margin: 10;
-  padding: 0;
-}
+
 
 a:link    { color:green;  }
 a:visited { color: red;   }
 a:hover   { color: blue; }
 a:active  { color: pink;  }
+
+
